@@ -12,6 +12,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="stylesheet" href="{% static 'css/plantilla.css' %}">
         <style>
+            body.dark-mode .formulario {
+                background-color: #333333; /* Dark background for the form */
+                border-color: #444444; /* Dark border color */
+            }
+            body.dark-mode .formulario h2 {
+                color: #ffffff; /* White text color for the heading */
+            }
+            body.dark-mode .form-label {
+                color: #ffffff; /* White text color for labels */
+            }
+            body.dark-mode .form-control {
+                background-color: #444444; /* Dark background for input fields */
+                color: #ffffff; /* White text color for input fields */
+                border: 1px solid #555555; /* Border color for input fields */
+            }
+            body.dark-mode .form-control::placeholder {
+                color: #bbbbbb; /* Light gray placeholder text */
+            }
+            body.dark-mode .btn-primary {
+                background-color: #1a73e8; /* Blue background for the button */
+                border-color: #1a73e8; /* Blue border for the button */
+                color: #ffffff; /* White text color for the button */
+            }
+            body.dark-mode .btn-primary:hover {
+                background-color: #1558b0; /* Darker blue on hover */
+                border-color: #1558b0; /* Darker blue border on hover */
+            }
             .registro-container {
                 display: flex;
                 flex-direction: column;
